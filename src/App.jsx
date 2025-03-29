@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import DinoGame from './DinoGame';
-import Style from './App.css';
+import './App.css';
 
 
 function App(){
