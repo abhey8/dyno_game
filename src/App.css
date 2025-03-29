@@ -1,0 +1,26 @@
+.game-area {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  border: 2px solid #333;
+  margin: 20px auto;
+}
+.dino {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  bottom: 0;
+  left: 50px;
+  border-radius: 5px;
+}
+.obstacle {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  background-color: #555;
+  bottom: 0;
+}
+
