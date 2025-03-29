@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 50px;
+} */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.game-area {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+.dino {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    bottom: 0;
+    left: 50px;
+}
+.obstacle {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #555;
+    bottom: 0;
+}
+h2 {
+    text-align: center;
+}
